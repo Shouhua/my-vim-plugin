@@ -9,4 +9,9 @@ highlight link potionKeyword Keyword
 syntax match potionComment "\v#.*$"
 highlight link potionComment Comment
 
+syntax match potionOperator "\v\*"
+syntax match potionOperator "\v/"
+syntax match potionOperator "\v\+"
+highlight link potionOperator Operator
+
 let b:current_syntax = "potion"
