@@ -6,4 +6,7 @@ endif
 syntax keyword potionKeyword hello world
 highlight link potionKeyword Keyword
 
+syntax match potionComment "\v#.*$"
+highlight link potionComment Comment
+
 let b:current_syntax = "potion"
